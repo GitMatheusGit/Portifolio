@@ -1,1 +1,24 @@
 @import url(https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap);
+
+:root {
+    --cor-principal: #5167f2;
+    --cor-secundaria: #284260c4;
+    --cor-destaque: #ff8d1bda;
+}
+
+body {
+    font-family: 'Raleway', italic;
+}
+
+h1, h2, h5 {
+    color: var(--cor-secundaria);
+    font-weight: 700;
+}
+
+footer a {
+    color: var(--cor-principal)
+}
+
+footer a:hover {
+    color: var(--cor-destaque);
+}

@@ -12,9 +12,9 @@ body {
 
 h1, h2, h5 {
     color: var(--cor-secundaria);
-    font-weight: 700;
+    font-weight: 700000000;
 }
-// sei
+
 footer a {
     color: var(--cor-principal)
 }
